@@ -1,0 +1,2 @@
+New Satelites have infared sensors to detect clouds accurateley but old satelites don't have this technology and rely only on RGB-bands. To still use those satelites I created a model that can mask the clouds just using the RGB-bands. For that I trained multiple models on the Sentinel-2 data with the RGB-Images as Input and the clouds masks as their labels/output.
+Those multiple models combined give a accurate mask of the clouds
